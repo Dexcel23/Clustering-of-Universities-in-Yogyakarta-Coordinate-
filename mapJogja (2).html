@@ -1,0 +1,2232 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5fed3e429df82f42337d10585b2ced7f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5fed3e429df82f42337d10585b2ced7f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5fed3e429df82f42337d10585b2ced7f = L.map(
+                "map_5fed3e429df82f42337d10585b2ced7f",
+                {
+                    center: [-5.967843984786163, 106.04794458711105],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_223133b34569b8e4395a92d0e27a27ff = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+            var marker_303c54119cc00218662dc1a71bd50f12 = L.marker(
+                [18.0276057, 104.1428669],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_a5a8fad6d1647d3f4c2170f1a1000e9c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea84f6c2e42c0395b4c1adb0db8a2ee8 = $(`<div id="html_ea84f6c2e42c0395b4c1adb0db8a2ee8" style="width: 100.0%; height: 100.0%;">Nama PT</div>`)[0];
+                popup_a5a8fad6d1647d3f4c2170f1a1000e9c.setContent(html_ea84f6c2e42c0395b4c1adb0db8a2ee8);
+            
+        
+
+        marker_303c54119cc00218662dc1a71bd50f12.bindPopup(popup_a5a8fad6d1647d3f4c2170f1a1000e9c)
+        ;
+
+        
+    
+    
+            var marker_c10d6bc72830ab3efb8c43a2494be4b5 = L.marker(
+                [-7.6880648, 110.41383],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_697b174c11f9cf3ae701bcf6d7390897 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6eff98edc3df3d00fd802e1352ad82cb = $(`<div id="html_6eff98edc3df3d00fd802e1352ad82cb" style="width: 100.0%; height: 100.0%;">Universitas Islam Indonesia</div>`)[0];
+                popup_697b174c11f9cf3ae701bcf6d7390897.setContent(html_6eff98edc3df3d00fd802e1352ad82cb);
+            
+        
+
+        marker_c10d6bc72830ab3efb8c43a2494be4b5.bindPopup(popup_697b174c11f9cf3ae701bcf6d7390897)
+        ;
+
+        
+    
+    
+            var marker_82129b08ab866c2e0de5cb9af7a8fcd6 = L.marker(
+                [-7.8009806, 110.3878711],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_c6b2ce509f6f7dc1954f18049edb6de5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2f201f75f9dd4b0b10c25f7d001fcc2 = $(`<div id="html_b2f201f75f9dd4b0b10c25f7d001fcc2" style="width: 100.0%; height: 100.0%;">Universitas Sarjanawiyata Tamansiswa</div>`)[0];
+                popup_c6b2ce509f6f7dc1954f18049edb6de5.setContent(html_b2f201f75f9dd4b0b10c25f7d001fcc2);
+            
+        
+
+        marker_82129b08ab866c2e0de5cb9af7a8fcd6.bindPopup(popup_c6b2ce509f6f7dc1954f18049edb6de5)
+        ;
+
+        
+    
+    
+            var marker_1ad14f38efbdb822568ce94bb161387d = L.marker(
+                [-7.7838736, 110.357369],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_500bf9336aca747103b20a0bf4c0f4f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3630249222bc9a78128b904d0d48d8b = $(`<div id="html_a3630249222bc9a78128b904d0d48d8b" style="width: 100.0%; height: 100.0%;">Universitas Janabadra</div>`)[0];
+                popup_500bf9336aca747103b20a0bf4c0f4f2.setContent(html_a3630249222bc9a78128b904d0d48d8b);
+            
+        
+
+        marker_1ad14f38efbdb822568ce94bb161387d.bindPopup(popup_500bf9336aca747103b20a0bf4c0f4f2)
+        ;
+
+        
+    
+    
+            var marker_b7fca512d87843e2a6a06b2c4838816c = L.marker(
+                [-7.7743727, 110.4180807],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_3c2088825e582c5e0c3c411c7f754a26 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4e805060b948e72ebb1e0073d67911a = $(`<div id="html_f4e805060b948e72ebb1e0073d67911a" style="width: 100.0%; height: 100.0%;">Universitas Proklamasi  45</div>`)[0];
+                popup_3c2088825e582c5e0c3c411c7f754a26.setContent(html_f4e805060b948e72ebb1e0073d67911a);
+            
+        
+
+        marker_b7fca512d87843e2a6a06b2c4838816c.bindPopup(popup_3c2088825e582c5e0c3c411c7f754a26)
+        ;
+
+        
+    
+    
+            var marker_46b443d04ca5c023c640887069d6319f = L.marker(
+                [-7.7763961, 110.3926512],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_b2da386f6606dfaa1f5bc82d9ad0b244 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23666a780e8426b8acba040c5d9c434b = $(`<div id="html_23666a780e8426b8acba040c5d9c434b" style="width: 100.0%; height: 100.0%;">Universitas Atma Jaya Yogyakarta</div>`)[0];
+                popup_b2da386f6606dfaa1f5bc82d9ad0b244.setContent(html_23666a780e8426b8acba040c5d9c434b);
+            
+        
+
+        marker_46b443d04ca5c023c640887069d6319f.bindPopup(popup_b2da386f6606dfaa1f5bc82d9ad0b244)
+        ;
+
+        
+    
+    
+            var marker_348019d9da2c4c8292924fa6c50f92dd = L.marker(
+                [-7.8196022, 110.3930781],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_b3e6b4023484bd7b3b7c7d9e10742ffa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8765ff8204bff2e016254bbac12d741a = $(`<div id="html_8765ff8204bff2e016254bbac12d741a" style="width: 100.0%; height: 100.0%;">Universitas Cokroaminoto Yogyakarta</div>`)[0];
+                popup_b3e6b4023484bd7b3b7c7d9e10742ffa.setContent(html_8765ff8204bff2e016254bbac12d741a);
+            
+        
+
+        marker_348019d9da2c4c8292924fa6c50f92dd.bindPopup(popup_b3e6b4023484bd7b3b7c7d9e10742ffa)
+        ;
+
+        
+    
+    
+            var marker_81d87fe4c0ca4b5c5fa9472bdad362cb = L.marker(
+                [-7.8101236, 110.3214061],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_838cb7fcbc750aa6b162bd26a17f88eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0098ff460203b7bfa1f132d78f5f13d = $(`<div id="html_d0098ff460203b7bfa1f132d78f5f13d" style="width: 100.0%; height: 100.0%;">Universitas Muhammadiyah Yogyakarta</div>`)[0];
+                popup_838cb7fcbc750aa6b162bd26a17f88eb.setContent(html_d0098ff460203b7bfa1f132d78f5f13d);
+            
+        
+
+        marker_81d87fe4c0ca4b5c5fa9472bdad362cb.bindPopup(popup_838cb7fcbc750aa6b162bd26a17f88eb)
+        ;
+
+        
+    
+    
+            var marker_ca79f9f165265d449aa2d8617d230a3e = L.marker(
+                [-7.8064767, 110.3583828],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_44b1d2d8f81cc62531d03a8bbeaa81db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eef09f3af6e12cee700ddba56db62293 = $(`<div id="html_eef09f3af6e12cee700ddba56db62293" style="width: 100.0%; height: 100.0%;">Universitas Widya Mataram</div>`)[0];
+                popup_44b1d2d8f81cc62531d03a8bbeaa81db.setContent(html_eef09f3af6e12cee700ddba56db62293);
+            
+        
+
+        marker_ca79f9f165265d449aa2d8617d230a3e.bindPopup(popup_44b1d2d8f81cc62531d03a8bbeaa81db)
+        ;
+
+        
+    
+    
+            var marker_ddab5a1d9a7a13730be7d90f3c8b1956 = L.marker(
+                [-7.773949650840743, 110.44956376593004],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_31061212f41f409ab0734d022b4400cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ff9e382ef873683e23d1b0da7eef48a = $(`<div id="html_0ff9e382ef873683e23d1b0da7eef48a" style="width: 100.0%; height: 100.0%;">Universitas Kristen Immanuel</div>`)[0];
+                popup_31061212f41f409ab0734d022b4400cf.setContent(html_0ff9e382ef873683e23d1b0da7eef48a);
+            
+        
+
+        marker_ddab5a1d9a7a13730be7d90f3c8b1956.bindPopup(popup_31061212f41f409ab0734d022b4400cf)
+        ;
+
+        
+    
+    
+            var marker_89c9967c3da294ab485ff471333ccf53 = L.marker(
+                [-7.7860984, 110.3784035],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_9375bc88f59356135498e2c91db0ae5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7582868b385b88ac5e5c0c0e74d47eab = $(`<div id="html_7582868b385b88ac5e5c0c0e74d47eab" style="width: 100.0%; height: 100.0%;">Universitas Kristen Duta Wacana</div>`)[0];
+                popup_9375bc88f59356135498e2c91db0ae5f.setContent(html_7582868b385b88ac5e5c0c0e74d47eab);
+            
+        
+
+        marker_89c9967c3da294ab485ff471333ccf53.bindPopup(popup_9375bc88f59356135498e2c91db0ae5f)
+        ;
+
+        
+    
+    
+            var marker_0d2826fe3d54985dd86f30472a3e21d6 = L.marker(
+                [-7.7547481, 110.421698],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_dbe57cd0eeb11076dc7f8bce634a667b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_caca7e2323e3116b064152ce94db13b3 = $(`<div id="html_caca7e2323e3116b064152ce94db13b3" style="width: 100.0%; height: 100.0%;">Universitas Sanata Dharma</div>`)[0];
+                popup_dbe57cd0eeb11076dc7f8bce634a667b.setContent(html_caca7e2323e3116b064152ce94db13b3);
+            
+        
+
+        marker_0d2826fe3d54985dd86f30472a3e21d6.bindPopup(popup_dbe57cd0eeb11076dc7f8bce634a667b)
+        ;
+
+        
+    
+    
+            var marker_63b963ffa0f2f5ffa4c3dcfad2db076c = L.marker(
+                [-7.8205032, 110.3885512],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_4722ece2ab9eab8af9f999fc859be281 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa7c51469ee873bef36b73b7c266c36b = $(`<div id="html_aa7c51469ee873bef36b73b7c266c36b" style="width: 100.0%; height: 100.0%;">Universitas Ahmad Dahlan</div>`)[0];
+                popup_4722ece2ab9eab8af9f999fc859be281.setContent(html_aa7c51469ee873bef36b73b7c266c36b);
+            
+        
+
+        marker_63b963ffa0f2f5ffa4c3dcfad2db076c.bindPopup(popup_4722ece2ab9eab8af9f999fc859be281)
+        ;
+
+        
+    
+    
+            var marker_039c9ab6d804e69a67993e752afa954c = L.marker(
+                [-7.8057238, 110.3413732],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_c17198257da9540690423c09174e8828 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12cca21d6bb0240d35479bf692deab4e = $(`<div id="html_12cca21d6bb0240d35479bf692deab4e" style="width: 100.0%; height: 100.0%;">Universitas PGRI Yogyakarta</div>`)[0];
+                popup_c17198257da9540690423c09174e8828.setContent(html_12cca21d6bb0240d35479bf692deab4e);
+            
+        
+
+        marker_039c9ab6d804e69a67993e752afa954c.bindPopup(popup_c17198257da9540690423c09174e8828)
+        ;
+
+        
+    
+    
+            var marker_5f677647415b1081e8bd919cc4d3051e = L.marker(
+                [-6.07806, 106.34833],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_d067e80229221ff69faf1e1d9f85a880 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f97706c729b9300e7594127bc6a73c68 = $(`<div id="html_f97706c729b9300e7594127bc6a73c68" style="width: 100.0%; height: 100.0%;">Universitas Gunung Kidul</div>`)[0];
+                popup_d067e80229221ff69faf1e1d9f85a880.setContent(html_f97706c729b9300e7594127bc6a73c68);
+            
+        
+
+        marker_5f677647415b1081e8bd919cc4d3051e.bindPopup(popup_d067e80229221ff69faf1e1d9f85a880)
+        ;
+
+        
+    
+    
+            var marker_36f6b24f4580ef414928e082394c94f0 = L.marker(
+                [-7.7932616, 110.4072325],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_23363caa9644a826784643d5911b876e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7eb313551b1c7a10a12e1c6be886808d = $(`<div id="html_7eb313551b1c7a10a12e1c6be886808d" style="width: 100.0%; height: 100.0%;">Universitas Teknologi Yogyakarta</div>`)[0];
+                popup_23363caa9644a826784643d5911b876e.setContent(html_7eb313551b1c7a10a12e1c6be886808d);
+            
+        
+
+        marker_36f6b24f4580ef414928e082394c94f0.bindPopup(popup_23363caa9644a826784643d5911b876e)
+        ;
+
+        
+    
+    
+            var marker_d536defe4bc21d72a66cc750e0f60f5d = L.marker(
+                [-7.7629043, 110.4138741],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_ea189243c0d3531f2e6dd2176e4a1bcc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d50924714d72ce9e40b935239f960de8 = $(`<div id="html_d50924714d72ce9e40b935239f960de8" style="width: 100.0%; height: 100.0%;">Universitas Mercu Buana Yogyakarta</div>`)[0];
+                popup_ea189243c0d3531f2e6dd2176e4a1bcc.setContent(html_d50924714d72ce9e40b935239f960de8);
+            
+        
+
+        marker_d536defe4bc21d72a66cc750e0f60f5d.bindPopup(popup_ea189243c0d3531f2e6dd2176e4a1bcc)
+        ;
+
+        
+    
+    
+            var marker_ca43aa2323f1fe04a1c2a79a06e351a4 = L.marker(
+                [-7.7817622, 110.4072653],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_56edd9c807706801bee9da4dc222cc65 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc113bc9d7072d4984131717f576fc4e = $(`<div id="html_dc113bc9d7072d4984131717f576fc4e" style="width: 100.0%; height: 100.0%;">Universitas Respati Yogyakarta</div>`)[0];
+                popup_56edd9c807706801bee9da4dc222cc65.setContent(html_dc113bc9d7072d4984131717f576fc4e);
+            
+        
+
+        marker_ca43aa2323f1fe04a1c2a79a06e351a4.bindPopup(popup_56edd9c807706801bee9da4dc222cc65)
+        ;
+
+        
+    
+    
+            var marker_49c99691602f93b6d800ca3e7846075f = L.marker(
+                [-7.8184358, 110.3241941],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_468c11c6053403c03168cb1232d14c17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_188b1890d0a87b0eb5ab74fa15437730 = $(`<div id="html_188b1890d0a87b0eb5ab74fa15437730" style="width: 100.0%; height: 100.0%;">Universitas Alma Ata</div>`)[0];
+                popup_468c11c6053403c03168cb1232d14c17.setContent(html_188b1890d0a87b0eb5ab74fa15437730);
+            
+        
+
+        marker_49c99691602f93b6d800ca3e7846075f.bindPopup(popup_468c11c6053403c03168cb1232d14c17)
+        ;
+
+        
+    
+    
+            var marker_66e00476dbd0252f03569c1577a188dd = L.marker(
+                [-7.7682595, 110.3336427],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_a7998428f86231c6783efa0eee0d8889 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30d2051d99b51dff4eb7f6c7f1c19d1c = $(`<div id="html_30d2051d99b51dff4eb7f6c7f1c19d1c" style="width: 100.0%; height: 100.0%;">Universitas Aisyiyah Yogyakarta</div>`)[0];
+                popup_a7998428f86231c6783efa0eee0d8889.setContent(html_30d2051d99b51dff4eb7f6c7f1c19d1c);
+            
+        
+
+        marker_66e00476dbd0252f03569c1577a188dd.bindPopup(popup_a7998428f86231c6783efa0eee0d8889)
+        ;
+
+        
+    
+    
+            var marker_68ca3382a10aa172953ced9aa55d95cf = L.marker(
+                [-7.78278, 110.36083],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_3176712716147ca7bbf96caa52c71749 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39f0e6b8e65ce9434bf4a2a7cb2ca5c1 = $(`<div id="html_39f0e6b8e65ce9434bf4a2a7cb2ca5c1" style="width: 100.0%; height: 100.0%;">Universitas Nahdlatul Ulama Yogyakarta</div>`)[0];
+                popup_3176712716147ca7bbf96caa52c71749.setContent(html_39f0e6b8e65ce9434bf4a2a7cb2ca5c1);
+            
+        
+
+        marker_68ca3382a10aa172953ced9aa55d95cf.bindPopup(popup_3176712716147ca7bbf96caa52c71749)
+        ;
+
+        
+    
+    
+            var marker_640767fce00d3e7441a82b26a4f69b17 = L.marker(
+                [-7.7596002, 110.4087223],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_37a435eb3be38318adebc7bdccdd1f21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_601ed7fc04827f11d8c39ff09faecf7d = $(`<div id="html_601ed7fc04827f11d8c39ff09faecf7d" style="width: 100.0%; height: 100.0%;">Universitas Amikom Yogyakarta</div>`)[0];
+                popup_37a435eb3be38318adebc7bdccdd1f21.setContent(html_601ed7fc04827f11d8c39ff09faecf7d);
+            
+        
+
+        marker_640767fce00d3e7441a82b26a4f69b17.bindPopup(popup_37a435eb3be38318adebc7bdccdd1f21)
+        ;
+
+        
+    
+    
+            var marker_21f73179c028aeb8f42c73b8be4e89b0 = L.marker(
+                [-7.78278, 110.36083],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_e833a6244f0370a6fbbebeee406116cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a015331922a60142d8beb17f24252f22 = $(`<div id="html_a015331922a60142d8beb17f24252f22" style="width: 100.0%; height: 100.0%;">Universitas Jenderal Achmad Yani Yogyakarta</div>`)[0];
+                popup_e833a6244f0370a6fbbebeee406116cf.setContent(html_a015331922a60142d8beb17f24252f22);
+            
+        
+
+        marker_21f73179c028aeb8f42c73b8be4e89b0.bindPopup(popup_e833a6244f0370a6fbbebeee406116cf)
+        ;
+
+        
+    
+    
+            var marker_c53630bddc24b1177ba17a7c7b2b5468 = L.marker(
+                [-7.7340583, 110.3618019],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_9b368fe688cf9ee7c5cfbb490513fb3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92d25048c4444f1efcef1f97637b3aae = $(`<div id="html_92d25048c4444f1efcef1f97637b3aae" style="width: 100.0%; height: 100.0%;">Universitas Mahakarya Asia</div>`)[0];
+                popup_9b368fe688cf9ee7c5cfbb490513fb3c.setContent(html_92d25048c4444f1efcef1f97637b3aae);
+            
+        
+
+        marker_c53630bddc24b1177ba17a7c7b2b5468.bindPopup(popup_9b368fe688cf9ee7c5cfbb490513fb3c)
+        ;
+
+        
+    
+    
+            var marker_35206b386906bf4678457f1d06b3c676 = L.marker(
+                [-7.799377245062017, 110.35091456725114],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_03de5f15be45819c2343e126523b0421 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fbb13f0cc177e688f0a390b11e9c4cdc = $(`<div id="html_fbb13f0cc177e688f0a390b11e9c4cdc" style="width: 100.0%; height: 100.0%;">Universitas Siber Muhammadiyah</div>`)[0];
+                popup_03de5f15be45819c2343e126523b0421.setContent(html_fbb13f0cc177e688f0a390b11e9c4cdc);
+            
+        
+
+        marker_35206b386906bf4678457f1d06b3c676.bindPopup(popup_03de5f15be45819c2343e126523b0421)
+        ;
+
+        
+    
+    
+            var marker_26baddf53ad8b155380deadd39ce9ae5 = L.marker(
+                [-7.7932616, 110.4072325],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_67665ec4d10b8f15f9577189472fda07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f7f10c11a91c47bcba8549a0e03b9bb = $(`<div id="html_6f7f10c11a91c47bcba8549a0e03b9bb" style="width: 100.0%; height: 100.0%;">Universitas Teknologi Digital Indonesia</div>`)[0];
+                popup_67665ec4d10b8f15f9577189472fda07.setContent(html_6f7f10c11a91c47bcba8549a0e03b9bb);
+            
+        
+
+        marker_26baddf53ad8b155380deadd39ce9ae5.bindPopup(popup_67665ec4d10b8f15f9577189472fda07)
+        ;
+
+        
+    
+    
+            var marker_f13347309d5c7f8788c53c55b0fc1a80 = L.marker(
+                [-5.0, 120.0],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_807f20eada64b57e7a9499b5023aeaaa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c57254cada07da83a060d57b7b808e59 = $(`<div id="html_c57254cada07da83a060d57b7b808e59" style="width: 100.0%; height: 100.0%;">Universitas Cendekia Mitra Indonesia</div>`)[0];
+                popup_807f20eada64b57e7a9499b5023aeaaa.setContent(html_c57254cada07da83a060d57b7b808e59);
+            
+        
+
+        marker_f13347309d5c7f8788c53c55b0fc1a80.bindPopup(popup_807f20eada64b57e7a9499b5023aeaaa)
+        ;
+
+        
+    
+    
+            var marker_741f72a8048addd7be9fa6d9703ed09e = L.marker(
+                [-7.78278, 110.36083],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_14f60a0997b12cc3a79de71276828977 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db2ad604de84b29569ec2831d3984290 = $(`<div id="html_db2ad604de84b29569ec2831d3984290" style="width: 100.0%; height: 100.0%;">Universitas Islam Mulia Yogyakarta</div>`)[0];
+                popup_14f60a0997b12cc3a79de71276828977.setContent(html_db2ad604de84b29569ec2831d3984290);
+            
+        
+
+        marker_741f72a8048addd7be9fa6d9703ed09e.bindPopup(popup_14f60a0997b12cc3a79de71276828977)
+        ;
+
+        
+    
+    
+            var marker_d51b0b0efa6827d12bc9d23482676a37 = L.marker(
+                [-5.0, 120.0],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_b30d91c2574be7ae702b29d734fb8a17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba3a19b9d633386a2ef52cf50482359d = $(`<div id="html_ba3a19b9d633386a2ef52cf50482359d" style="width: 100.0%; height: 100.0%;">Universitas AKPRIND Indonesia</div>`)[0];
+                popup_b30d91c2574be7ae702b29d734fb8a17.setContent(html_ba3a19b9d633386a2ef52cf50482359d);
+            
+        
+
+        marker_d51b0b0efa6827d12bc9d23482676a37.bindPopup(popup_b30d91c2574be7ae702b29d734fb8a17)
+        ;
+
+        
+    
+    
+            var marker_ed1bac7f3309cb359d81db9ad701030a = L.marker(
+                [-7.8561039, 110.1748963],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_31a8fa6475054dce5b8b49501f948618 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_074d4aa27d6163e2b23e30a2f6d1aaa1 = $(`<div id="html_074d4aa27d6163e2b23e30a2f6d1aaa1" style="width: 100.0%; height: 100.0%;">IKIP PGRI Wates</div>`)[0];
+                popup_31a8fa6475054dce5b8b49501f948618.setContent(html_074d4aa27d6163e2b23e30a2f6d1aaa1);
+            
+        
+
+        marker_ed1bac7f3309cb359d81db9ad701030a.bindPopup(popup_31a8fa6475054dce5b8b49501f948618)
+        ;
+
+        
+    
+    
+            var marker_a90b57dbe1277360ebecd91a745ceaf0 = L.marker(
+                [-7.78278, 110.36083],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_15e53023aae680bb50278990986c4355 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d6a08d15b3a645a8f76ea0b2aa30e54 = $(`<div id="html_2d6a08d15b3a645a8f76ea0b2aa30e54" style="width: 100.0%; height: 100.0%;">Institut Pertanian (Intan) Yogyakarta</div>`)[0];
+                popup_15e53023aae680bb50278990986c4355.setContent(html_2d6a08d15b3a645a8f76ea0b2aa30e54);
+            
+        
+
+        marker_a90b57dbe1277360ebecd91a745ceaf0.bindPopup(popup_15e53023aae680bb50278990986c4355)
+        ;
+
+        
+    
+    
+            var marker_448811fcb1130c8c3981b9ead2c0af8e = L.marker(
+                [-7.7823722, 110.3959061],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_419588f8160c995fd3a155bd18c71e4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff634202f3f5a9990cc6e986d56cdfc6 = $(`<div id="html_ff634202f3f5a9990cc6e986d56cdfc6" style="width: 100.0%; height: 100.0%;">Institut Pertanian Stiper</div>`)[0];
+                popup_419588f8160c995fd3a155bd18c71e4b.setContent(html_ff634202f3f5a9990cc6e986d56cdfc6);
+            
+        
+
+        marker_448811fcb1130c8c3981b9ead2c0af8e.bindPopup(popup_419588f8160c995fd3a155bd18c71e4b)
+        ;
+
+        
+    
+    
+            var marker_990b1b726236f60c4fa071c9f9b84454 = L.marker(
+                [-7.8069078, 110.3983367],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_0441ec429e455a506b901e307b57926b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a28c3c0d8318c4f7dcc3c461e6d4cbd5 = $(`<div id="html_a28c3c0d8318c4f7dcc3c461e6d4cbd5" style="width: 100.0%; height: 100.0%;">Institut Teknologi Yogyakarta</div>`)[0];
+                popup_0441ec429e455a506b901e307b57926b.setContent(html_a28c3c0d8318c4f7dcc3c461e6d4cbd5);
+            
+        
+
+        marker_990b1b726236f60c4fa071c9f9b84454.bindPopup(popup_0441ec429e455a506b901e307b57926b)
+        ;
+
+        
+    
+    
+            var marker_dd19c6d3cd0ed24bdb68d4cd11751522 = L.marker(
+                [-7.7732133, 110.4164577],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_5292b88f9813b983f7f4eb909e745a40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a52dc3a0ea5b5b3d0d6d58021fd903b = $(`<div id="html_8a52dc3a0ea5b5b3d0d6d58021fd903b" style="width: 100.0%; height: 100.0%;">Institut Teknologi Nasional Yogyakarta</div>`)[0];
+                popup_5292b88f9813b983f7f4eb909e745a40.setContent(html_8a52dc3a0ea5b5b3d0d6d58021fd903b);
+            
+        
+
+        marker_dd19c6d3cd0ed24bdb68d4cd11751522.bindPopup(popup_5292b88f9813b983f7f4eb909e745a40)
+        ;
+
+        
+    
+    
+            var marker_cbc7ed6247d723047b3cf52581aecd91 = L.marker(
+                [-7.80975378579745, 110.28225236988555],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_f82b0bc660185ea4f2c4e7602123ec91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_940f7922676b55899f972e681ffac742 = $(`<div id="html_940f7922676b55899f972e681ffac742" style="width: 100.0%; height: 100.0%;">Institut Teknologi Dirgantara Adisutjipto</div>`)[0];
+                popup_f82b0bc660185ea4f2c4e7602123ec91.setContent(html_940f7922676b55899f972e681ffac742);
+            
+        
+
+        marker_cbc7ed6247d723047b3cf52581aecd91.bindPopup(popup_f82b0bc660185ea4f2c4e7602123ec91)
+        ;
+
+        
+    
+    
+            var marker_0446a08695c1c770ce07297188e55561 = L.marker(
+                [-7.78278, 110.36083],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_82f6acbbfc7e2f166e65e28789c12dd5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f115b764833ed58800d7f4534ee1b44 = $(`<div id="html_0f115b764833ed58800d7f4534ee1b44" style="width: 100.0%; height: 100.0%;">Institut Sains Teknologi Dan Kesehatan Mulia Yogyakarta</div>`)[0];
+                popup_82f6acbbfc7e2f166e65e28789c12dd5.setContent(html_0f115b764833ed58800d7f4534ee1b44);
+            
+        
+
+        marker_0446a08695c1c770ce07297188e55561.bindPopup(popup_82f6acbbfc7e2f166e65e28789c12dd5)
+        ;
+
+        
+    
+    
+            var marker_fd637ee8f7c8d79ac1fc369b96b5dd6f = L.marker(
+                [-7.8934041, 110.3383387],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_0dd373cce92c6160690c3219a57eb02a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88ad6002a55f155d5965c8ed6e7f471c = $(`<div id="html_88ad6002a55f155d5965c8ed6e7f471c" style="width: 100.0%; height: 100.0%;">STIKIP Catur Sakti</div>`)[0];
+                popup_0dd373cce92c6160690c3219a57eb02a.setContent(html_88ad6002a55f155d5965c8ed6e7f471c);
+            
+        
+
+        marker_fd637ee8f7c8d79ac1fc369b96b5dd6f.bindPopup(popup_0dd373cce92c6160690c3219a57eb02a)
+        ;
+
+        
+    
+    
+            var marker_63a5496c0feaa9536cf8ebf6b84e4af7 = L.marker(
+                [-7.768845068487784, 110.41016235437142],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_4326e21b9f12e695b3ddf63b63467951 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8a16e383b86e5ca1aa3d0694c783aac = $(`<div id="html_e8a16e383b86e5ca1aa3d0694c783aac" style="width: 100.0%; height: 100.0%;">Sekolah Tinggi Ilmu Ekonomi YKPN</div>`)[0];
+                popup_4326e21b9f12e695b3ddf63b63467951.setContent(html_e8a16e383b86e5ca1aa3d0694c783aac);
+            
+        
+
+        marker_63a5496c0feaa9536cf8ebf6b84e4af7.bindPopup(popup_4326e21b9f12e695b3ddf63b63467951)
+        ;
+
+        
+    
+    
+            var marker_0b8e1c3fe05ef492e3cc2d35ec8f11d7 = L.marker(
+                [-7.821961104402241, 110.37739909642788],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_ae2929378ce341c2565ff4b3a59f330b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a128b9c0edb214e86889084bf60dbc8 = $(`<div id="html_1a128b9c0edb214e86889084bf60dbc8" style="width: 100.0%; height: 100.0%;">Sekolah Tinggi Ilmu Ekonomi Widya Wiwaha</div>`)[0];
+                popup_ae2929378ce341c2565ff4b3a59f330b.setContent(html_1a128b9c0edb214e86889084bf60dbc8);
+            
+        
+
+        marker_0b8e1c3fe05ef492e3cc2d35ec8f11d7.bindPopup(popup_ae2929378ce341c2565ff4b3a59f330b)
+        ;
+
+        
+    
+    
+            var marker_a78a2037becd2d31d7e753eb0dc14044 = L.marker(
+                [-7.77561217112521, 110.36754526989492],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_69834e3b7449b1909616739753713420 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2023298acb19229ce21e271c3eab88c7 = $(`<div id="html_2023298acb19229ce21e271c3eab88c7" style="width: 100.0%; height: 100.0%;">Sekolah Tinggi Ilmu Ekonomi Nusa Megarkencana</div>`)[0];
+                popup_69834e3b7449b1909616739753713420.setContent(html_2023298acb19229ce21e271c3eab88c7);
+            
+        
+
+        marker_a78a2037becd2d31d7e753eb0dc14044.bindPopup(popup_69834e3b7449b1909616739753713420)
+        ;
+
+        
+    
+    
+            var marker_62253831f546047e53992347aae4eb6e = L.marker(
+                [-7.7915599, 110.394352],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_3d9bc079919f3f5eb4525603b1291891 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1b35bacb917398853fff12fade3bc18 = $(`<div id="html_c1b35bacb917398853fff12fade3bc18" style="width: 100.0%; height: 100.0%;">Sekolah Tinggi Pembangunan Masyarakat Desa APMD</div>`)[0];
+                popup_3d9bc079919f3f5eb4525603b1291891.setContent(html_c1b35bacb917398853fff12fade3bc18);
+            
+        
+
+        marker_62253831f546047e53992347aae4eb6e.bindPopup(popup_3d9bc079919f3f5eb4525603b1291891)
+        ;
+
+        
+    
+    
+            var marker_1f8680ab43d40995a9ae08a18c6494a5 = L.marker(
+                [12.48333, -13.3],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_ed0359fff8989ffb159a156fd4cb3847 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9096ee0ea008993adb326020b28ac32e = $(`<div id="html_9096ee0ea008993adb326020b28ac32e" style="width: 100.0%; height: 100.0%;">Sekolah Tinggi Ilmu Ekonomi SBI</div>`)[0];
+                popup_ed0359fff8989ffb159a156fd4cb3847.setContent(html_9096ee0ea008993adb326020b28ac32e);
+            
+        
+
+        marker_1f8680ab43d40995a9ae08a18c6494a5.bindPopup(popup_ed0359fff8989ffb159a156fd4cb3847)
+        ;
+
+        
+    
+    
+            var marker_5caa006d9e7c60eedd6c9c6df71c8be2 = L.marker(
+                [-7.766913136797221, 110.34949082575312],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_992391fdae56016f3e30b6a73c8f42e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1c880ee0e6851df7e4551886a054821 = $(`<div id="html_c1c880ee0e6851df7e4551886a054821" style="width: 100.0%; height: 100.0%;">Sekolah Tinggi Ilmu Ekonomi Ykp</div>`)[0];
+                popup_992391fdae56016f3e30b6a73c8f42e7.setContent(html_c1c880ee0e6851df7e4551886a054821);
+            
+        
+
+        marker_5caa006d9e7c60eedd6c9c6df71c8be2.bindPopup(popup_992391fdae56016f3e30b6a73c8f42e7)
+        ;
+
+        
+    
+    
+            var marker_5c1a221a2026911b2344b4318e282bbb = L.marker(
+                [-7.793508713412818, 110.37239950406558],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_0bce8996f31495c4092062c4dc2f9d13 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a1a9fac7219df978df141a41b549b20 = $(`<div id="html_2a1a9fac7219df978df141a41b549b20" style="width: 100.0%; height: 100.0%;">Sekolah Tinggi Ilmu Ekonomi Isti Ekatana Upaweda</div>`)[0];
+                popup_0bce8996f31495c4092062c4dc2f9d13.setContent(html_2a1a9fac7219df978df141a41b549b20);
+            
+        
+
+        marker_5c1a221a2026911b2344b4318e282bbb.bindPopup(popup_0bce8996f31495c4092062c4dc2f9d13)
+        ;
+
+        
+    
+    
+            var marker_aea1127713d2156a1770707f42cab007 = L.marker(
+                [-7.837627411554729, 110.36826964296488],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_77bd762ae71ae5fe7c59efff5f767fa5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58847a7593643031ced84fe994f16736 = $(`<div id="html_58847a7593643031ced84fe994f16736" style="width: 100.0%; height: 100.0%;">Sekolah Tinggi Teknologi Kedirgantaraan</div>`)[0];
+                popup_77bd762ae71ae5fe7c59efff5f767fa5.setContent(html_58847a7593643031ced84fe994f16736);
+            
+        
+
+        marker_aea1127713d2156a1770707f42cab007.bindPopup(popup_77bd762ae71ae5fe7c59efff5f767fa5)
+        ;
+
+        
+    
+    
+            var marker_2488270cb0caadf73ad7253eb02b995e = L.marker(
+                [24.19167, 55.76056],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_cfad0ce96e343827466f1fe10fb5008c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_011de7f97423cce6dd469ff503c58729 = $(`<div id="html_011de7f97423cce6dd469ff503c58729" style="width: 100.0%; height: 100.0%;">Sekolah Tinggi Ilmu Administrasi Aan</div>`)[0];
+                popup_cfad0ce96e343827466f1fe10fb5008c.setContent(html_011de7f97423cce6dd469ff503c58729);
+            
+        
+
+        marker_2488270cb0caadf73ad7253eb02b995e.bindPopup(popup_cfad0ce96e343827466f1fe10fb5008c)
+        ;
+
+        
+    
+    
+            var marker_801758695055d8194e24cafc50a06af3 = L.marker(
+                [-7.778416, 110.4035228],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_185696cc932b2f1167413a3a9957c4c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_100c30026f0401e2a3814d34c03306ce = $(`<div id="html_100c30026f0401e2a3814d34c03306ce" style="width: 100.0%; height: 100.0%;">Sekolah Tinggi Pariwisata Ampta Yogyakarta</div>`)[0];
+                popup_185696cc932b2f1167413a3a9957c4c5.setContent(html_100c30026f0401e2a3814d34c03306ce);
+            
+        
+
+        marker_801758695055d8194e24cafc50a06af3.bindPopup(popup_185696cc932b2f1167413a3a9957c4c5)
+        ;
+
+        
+    
+    
+            var marker_5cdd079b8b49205362834a6969d82c55 = L.marker(
+                [-7.775851992387634, 110.41754349687773],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_294e6751010d300095dc7252d4632a91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f246c2deb71dd89439a9eaae236fbc8 = $(`<div id="html_0f246c2deb71dd89439a9eaae236fbc8" style="width: 100.0%; height: 100.0%;">Sekolah Tinggi Ilmu Ekonomi Pariwisata Api</div>`)[0];
+                popup_294e6751010d300095dc7252d4632a91.setContent(html_0f246c2deb71dd89439a9eaae236fbc8);
+            
+        
+
+        marker_5cdd079b8b49205362834a6969d82c55.bindPopup(popup_294e6751010d300095dc7252d4632a91)
+        ;
+
+        
+    
+    
+            var marker_3d27d4f9f77051e451fbc115a0c57c4c = L.marker(
+                [-7.78278, 110.36083],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_63e2c0f976ed087ae9c2aa5657bd1d8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df28c5ebb69c9cb76c95fd6e760e256e = $(`<div id="html_df28c5ebb69c9cb76c95fd6e760e256e" style="width: 100.0%; height: 100.0%;">Sekolah Tinggi Bahasa Asing LIA Yogyakarta</div>`)[0];
+                popup_63e2c0f976ed087ae9c2aa5657bd1d8c.setContent(html_df28c5ebb69c9cb76c95fd6e760e256e);
+            
+        
+
+        marker_3d27d4f9f77051e451fbc115a0c57c4c.bindPopup(popup_63e2c0f976ed087ae9c2aa5657bd1d8c)
+        ;
+
+        
+    
+    
+            var marker_f115f9d39270efefca2b9733684ac316 = L.marker(
+                [-7.78278, 110.36083],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_4615628fda687389e8c89de9ccfb44f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c4c27a1078634d7088b3e1513c67fc1 = $(`<div id="html_7c4c27a1078634d7088b3e1513c67fc1" style="width: 100.0%; height: 100.0%;">Sekolah Tinggi Manajemen Informatika dan Ilmu Komputer El Rahma Yogyakarta</div>`)[0];
+                popup_4615628fda687389e8c89de9ccfb44f6.setContent(html_7c4c27a1078634d7088b3e1513c67fc1);
+            
+        
+
+        marker_f115f9d39270efefca2b9733684ac316.bindPopup(popup_4615628fda687389e8c89de9ccfb44f6)
+        ;
+
+        
+    
+    
+            var marker_93433f7c1a76c80bca1489a7d3c52c2f = L.marker(
+                [-7.775694119852163, 110.41781291397724],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_89dc1ddfb8df371b42406cd1dc589b6a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f6b28cd64fb9ccdad738ef0f6b6b26c = $(`<div id="html_7f6b28cd64fb9ccdad738ef0f6b6b26c" style="width: 100.0%; height: 100.0%;">Sekolah Tinggi Ilmu Kesehatan Wira Husada</div>`)[0];
+                popup_89dc1ddfb8df371b42406cd1dc589b6a.setContent(html_7f6b28cd64fb9ccdad738ef0f6b6b26c);
+            
+        
+
+        marker_93433f7c1a76c80bca1489a7d3c52c2f.bindPopup(popup_89dc1ddfb8df371b42406cd1dc589b6a)
+        ;
+
+        
+    
+    
+            var marker_475837c07baf271caa6ee113cced54e1 = L.marker(
+                [-7.78278, 110.36083],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_c448b1cf981d67e11af95787772d4bf3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75e7519f4de668cc505001a28c8900bb = $(`<div id="html_75e7519f4de668cc505001a28c8900bb" style="width: 100.0%; height: 100.0%;">Sekolah Tinggi Ilmu Kesehatan Surya Global Yogyakarta</div>`)[0];
+                popup_c448b1cf981d67e11af95787772d4bf3.setContent(html_75e7519f4de668cc505001a28c8900bb);
+            
+        
+
+        marker_475837c07baf271caa6ee113cced54e1.bindPopup(popup_c448b1cf981d67e11af95787772d4bf3)
+        ;
+
+        
+    
+    
+            var marker_ba049ad478964dc532bbf456bf69e08c = L.marker(
+                [-7.78278, 110.36083],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_c26e3490721da9ea5564a8fac64cd2c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44654d392bfe9cd7fa94229a684192ad = $(`<div id="html_44654d392bfe9cd7fa94229a684192ad" style="width: 100.0%; height: 100.0%;">Sekolah Tinggi Ilmu Manajemen YKPN Yogyakarta</div>`)[0];
+                popup_c26e3490721da9ea5564a8fac64cd2c7.setContent(html_44654d392bfe9cd7fa94229a684192ad);
+            
+        
+
+        marker_ba049ad478964dc532bbf456bf69e08c.bindPopup(popup_c26e3490721da9ea5564a8fac64cd2c7)
+        ;
+
+        
+    
+    
+            var marker_6010e403eace48000ff59b957697af0c = L.marker(
+                [-7.78278, 110.36083],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_52b66ba4fcc09bce401258d9017d08c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ed9212a77637870952876b53efbf464 = $(`<div id="html_6ed9212a77637870952876b53efbf464" style="width: 100.0%; height: 100.0%;">Sekolah Tinggi Pariwisata Ambarrukmo Yogyakarta</div>`)[0];
+                popup_52b66ba4fcc09bce401258d9017d08c1.setContent(html_6ed9212a77637870952876b53efbf464);
+            
+        
+
+        marker_6010e403eace48000ff59b957697af0c.bindPopup(popup_52b66ba4fcc09bce401258d9017d08c1)
+        ;
+
+        
+    
+    
+            var marker_ad93f540a1a0827b71d23aba5a1f8610 = L.marker(
+                [-5.0, 120.0],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_74f771098bb2abf2d87a8348caef1d37 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_696f92b5f699b70ee991b1b351b7b87c = $(`<div id="html_696f92b5f699b70ee991b1b351b7b87c" style="width: 100.0%; height: 100.0%;">Sekolah Tinggi Seni Rupa Dan Desain Visi Indonesia</div>`)[0];
+                popup_74f771098bb2abf2d87a8348caef1d37.setContent(html_696f92b5f699b70ee991b1b351b7b87c);
+            
+        
+
+        marker_ad93f540a1a0827b71d23aba5a1f8610.bindPopup(popup_74f771098bb2abf2d87a8348caef1d37)
+        ;
+
+        
+    
+    
+            var marker_60bb70c388a0fcaf7a373c6e02daee1b = L.marker(
+                [-7.78436886513691, 110.37587974057834],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_fd0eaf9145075d591aebde3cddf97649 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e51a98134962cbeb2b408cdf59353b6f = $(`<div id="html_e51a98134962cbeb2b408cdf59353b6f" style="width: 100.0%; height: 100.0%;">Sekolah Tinggi Ilmu Kesehatan Bethesda Yakkum</div>`)[0];
+                popup_fd0eaf9145075d591aebde3cddf97649.setContent(html_e51a98134962cbeb2b408cdf59353b6f);
+            
+        
+
+        marker_60bb70c388a0fcaf7a373c6e02daee1b.bindPopup(popup_fd0eaf9145075d591aebde3cddf97649)
+        ;
+
+        
+    
+    
+            var marker_1bbb7ea543b0fe3917059353b9de5271 = L.marker(
+                [-7.8035181, 110.3552993],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_751b6345212b409c4f151d0dc2164dfd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b91bbda5914f154bb18f55160785360 = $(`<div id="html_1b91bbda5914f154bb18f55160785360" style="width: 100.0%; height: 100.0%;">STIKES Yogyakarta</div>`)[0];
+                popup_751b6345212b409c4f151d0dc2164dfd.setContent(html_1b91bbda5914f154bb18f55160785360);
+            
+        
+
+        marker_1bbb7ea543b0fe3917059353b9de5271.bindPopup(popup_751b6345212b409c4f151d0dc2164dfd)
+        ;
+
+        
+    
+    
+            var marker_c084fcb6bead20341fbfd5906c916bf0 = L.marker(
+                [-7.7605958, 110.4090582],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_a5d23e6584890414301bd8a2eaea2e33 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1814b97227596b45017265624010619 = $(`<div id="html_e1814b97227596b45017265624010619" style="width: 100.0%; height: 100.0%;">STIKES Guna Bangsa Yogyakarta</div>`)[0];
+                popup_a5d23e6584890414301bd8a2eaea2e33.setContent(html_e1814b97227596b45017265624010619);
+            
+        
+
+        marker_c084fcb6bead20341fbfd5906c916bf0.bindPopup(popup_a5d23e6584890414301bd8a2eaea2e33)
+        ;
+
+        
+    
+    
+            var marker_34019be8a4ce26f1fdd104cff512f8fa = L.marker(
+                [-7.8193142, 110.355],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_f7ff188b355023320ecdf528db8fe156 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49fa25a18def666b3c0db16f59347483 = $(`<div id="html_49fa25a18def666b3c0db16f59347483" style="width: 100.0%; height: 100.0%;">STIKES AL-Islam Yogyakarta</div>`)[0];
+                popup_f7ff188b355023320ecdf528db8fe156.setContent(html_49fa25a18def666b3c0db16f59347483);
+            
+        
+
+        marker_34019be8a4ce26f1fdd104cff512f8fa.bindPopup(popup_f7ff188b355023320ecdf528db8fe156)
+        ;
+
+        
+    
+    
+            var marker_3dc444d6d4c76b8cdf8f8bd8d0e82114 = L.marker(
+                [-7.840752199937674, 110.44172069647296],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_bacdcb67c9d200a649c0045e5932f566 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce9fb49f792e480e0aad66bcf75d1733 = $(`<div id="html_ce9fb49f792e480e0aad66bcf75d1733" style="width: 100.0%; height: 100.0%;">Sekolah Tinggi Ilmu Kesehatan Madani</div>`)[0];
+                popup_bacdcb67c9d200a649c0045e5932f566.setContent(html_ce9fb49f792e480e0aad66bcf75d1733);
+            
+        
+
+        marker_3dc444d6d4c76b8cdf8f8bd8d0e82114.bindPopup(popup_bacdcb67c9d200a649c0045e5932f566)
+        ;
+
+        
+    
+    
+            var marker_b5bf2d0c923c3f63af4710b1a18c0716 = L.marker(
+                [-7.78278, 110.36083],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_2c5e63a9714227ee4fe968fe306f52f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01b7136b17a327bf80b82069b23930f1 = $(`<div id="html_01b7136b17a327bf80b82069b23930f1" style="width: 100.0%; height: 100.0%;">Sekolah Tinggi Ilmu Kesehatan Panti Rapih Yogyakarta</div>`)[0];
+                popup_2c5e63a9714227ee4fe968fe306f52f1.setContent(html_01b7136b17a327bf80b82069b23930f1);
+            
+        
+
+        marker_b5bf2d0c923c3f63af4710b1a18c0716.bindPopup(popup_2c5e63a9714227ee4fe968fe306f52f1)
+        ;
+
+        
+    
+    
+            var marker_d7b418af2496bd475e617631513b5d73 = L.marker(
+                [-7.849133296813624, 110.35791849730656],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_4e14e7854f6fc307d9a9caf9e7cfe46c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_edde3b6994177c5556931d5c6afdf629 = $(`<div id="html_edde3b6994177c5556931d5c6afdf629" style="width: 100.0%; height: 100.0%;">Sekolah Tinggi Ilmu Kesehatan Akbidyo</div>`)[0];
+                popup_4e14e7854f6fc307d9a9caf9e7cfe46c.setContent(html_edde3b6994177c5556931d5c6afdf629);
+            
+        
+
+        marker_d7b418af2496bd475e617631513b5d73.bindPopup(popup_4e14e7854f6fc307d9a9caf9e7cfe46c)
+        ;
+
+        
+    
+    
+            var marker_d5feb46d3907938374c178392b93ea7d = L.marker(
+                [-7.78278, 110.36083],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_caa2cac5b7088d7556fa954f8a144e6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f74a4ad715887e3251e46cb6d09c7526 = $(`<div id="html_f74a4ad715887e3251e46cb6d09c7526" style="width: 100.0%; height: 100.0%;">Sekolah Tinggi Ilmu Komunikasi Yogyakarta</div>`)[0];
+                popup_caa2cac5b7088d7556fa954f8a144e6f.setContent(html_f74a4ad715887e3251e46cb6d09c7526);
+            
+        
+
+        marker_d5feb46d3907938374c178392b93ea7d.bindPopup(popup_caa2cac5b7088d7556fa954f8a144e6f)
+        ;
+
+        
+    
+    
+            var marker_1a17c709975c5ad9b00e767d6f23b5e0 = L.marker(
+                [-7.78278, 110.36083],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_9b7d95d6842793c4699a157f0bb79cff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_830e26b2d75f1df943a0ef1fd29a4045 = $(`<div id="html_830e26b2d75f1df943a0ef1fd29a4045" style="width: 100.0%; height: 100.0%;">Sekolah Tinggi Ilmu Kesehatan Notokusumo Yogyakarta</div>`)[0];
+                popup_9b7d95d6842793c4699a157f0bb79cff.setContent(html_830e26b2d75f1df943a0ef1fd29a4045);
+            
+        
+
+        marker_1a17c709975c5ad9b00e767d6f23b5e0.bindPopup(popup_9b7d95d6842793c4699a157f0bb79cff)
+        ;
+
+        
+    
+    
+            var marker_303193b1f6f19e5e9da183205ebcec9f = L.marker(
+                [-7.78278, 110.36083],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_fc8bf5bfcad1e456439b19de5fe0936f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_329aa1992160684d72d645b5916c658f = $(`<div id="html_329aa1992160684d72d645b5916c658f" style="width: 100.0%; height: 100.0%;">Sekolah Tinggi Maritim Yogyakarta</div>`)[0];
+                popup_fc8bf5bfcad1e456439b19de5fe0936f.setContent(html_329aa1992160684d72d645b5916c658f);
+            
+        
+
+        marker_303193b1f6f19e5e9da183205ebcec9f.bindPopup(popup_fc8bf5bfcad1e456439b19de5fe0936f)
+        ;
+
+        
+    
+    
+            var marker_4dbafddb9a74f59db91b6b54435049e6 = L.marker(
+                [-7.78278, 110.36083],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_a401447de0016de3e237cb685ae587a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8d2ca7671b0f86dbb0f1b08062f09fd = $(`<div id="html_c8d2ca7671b0f86dbb0f1b08062f09fd" style="width: 100.0%; height: 100.0%;">Sekolah Tinggi Arsitektur YKPN Yogyakarta</div>`)[0];
+                popup_a401447de0016de3e237cb685ae587a4.setContent(html_c8d2ca7671b0f86dbb0f1b08062f09fd);
+            
+        
+
+        marker_4dbafddb9a74f59db91b6b54435049e6.bindPopup(popup_a401447de0016de3e237cb685ae587a4)
+        ;
+
+        
+    
+    
+            var marker_b5144df409d92290d238db2181b510b7 = L.marker(
+                [-7.800909816151977, 110.40987151158572],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_55cb46876c849d6bfb65a4e4cfa6ac71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e60ad22e5f4d8592d57ad2d2e92c9303 = $(`<div id="html_e60ad22e5f4d8592d57ad2d2e92c9303" style="width: 100.0%; height: 100.0%;">Sekolah Tinggi Ilmu Bisnis Kumala Nusa</div>`)[0];
+                popup_55cb46876c849d6bfb65a4e4cfa6ac71.setContent(html_e60ad22e5f4d8592d57ad2d2e92c9303);
+            
+        
+
+        marker_b5144df409d92290d238db2181b510b7.bindPopup(popup_55cb46876c849d6bfb65a4e4cfa6ac71)
+        ;
+
+        
+    
+    
+            var marker_c7fad2909ba1bc623c75950f711deb81 = L.marker(
+                [-7.88806, 110.32889],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_24fb191d04d4ecfe42c32ccd5ad3f919 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5358f2f5aa7c1766b171bf325a8c927a = $(`<div id="html_5358f2f5aa7c1766b171bf325a8c927a" style="width: 100.0%; height: 100.0%;">Sekolah Tinggi Ilmu Kesehatan Bantul</div>`)[0];
+                popup_24fb191d04d4ecfe42c32ccd5ad3f919.setContent(html_5358f2f5aa7c1766b171bf325a8c927a);
+            
+        
+
+        marker_c7fad2909ba1bc623c75950f711deb81.bindPopup(popup_24fb191d04d4ecfe42c32ccd5ad3f919)
+        ;
+
+        
+    
+    
+            var marker_77945c6fae052c7720e49acea17f0dda = L.marker(
+                [-7.814584590048393, 110.3894359090615],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_45c14b3ae167467b7c86f5368d6080cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a839e7790cd9b7510d8a7d1be0e6a9d = $(`<div id="html_5a839e7790cd9b7510d8a7d1be0e6a9d" style="width: 100.0%; height: 100.0%;">Akademi Manajemen Putra Jaya</div>`)[0];
+                popup_45c14b3ae167467b7c86f5368d6080cd.setContent(html_5a839e7790cd9b7510d8a7d1be0e6a9d);
+            
+        
+
+        marker_77945c6fae052c7720e49acea17f0dda.bindPopup(popup_45c14b3ae167467b7c86f5368d6080cd)
+        ;
+
+        
+    
+    
+            var marker_26b8099f84581955beae922bccd80092 = L.marker(
+                [56.94556, -154.17028],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_3d384c67eae22203341d2ac28994da41 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_287a32ed6372a793082bf76abec1b9f9 = $(`<div id="html_287a32ed6372a793082bf76abec1b9f9" style="width: 100.0%; height: 100.0%;">Akademi Kesejahteraan Sosial AKK</div>`)[0];
+                popup_3d384c67eae22203341d2ac28994da41.setContent(html_287a32ed6372a793082bf76abec1b9f9);
+            
+        
+
+        marker_26b8099f84581955beae922bccd80092.bindPopup(popup_3d384c67eae22203341d2ac28994da41)
+        ;
+
+        
+    
+    
+            var marker_6825de2b7849523fb7346a7482932943 = L.marker(
+                [-7.825561167039429, 110.37947874854834],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_0dc9e4a877c2d39d7891039c8b5c78bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c4fd7762c8891274c651f0450a7fdd2 = $(`<div id="html_3c4fd7762c8891274c651f0450a7fdd2" style="width: 100.0%; height: 100.0%;">Akademi Peternakan Brahmaputra</div>`)[0];
+                popup_0dc9e4a877c2d39d7891039c8b5c78bb.setContent(html_3c4fd7762c8891274c651f0450a7fdd2);
+            
+        
+
+        marker_6825de2b7849523fb7346a7482932943.bindPopup(popup_0dc9e4a877c2d39d7891039c8b5c78bb)
+        ;
+
+        
+    
+    
+            var marker_115837705018c82a4ebb7ad9e001437e = L.marker(
+                [-7.818113520814745, 110.35497857821422],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_4453198e5e76cd7ac7a9133c0943f90e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84967a37f351bdc3ea8416c9a8c8ade2 = $(`<div id="html_84967a37f351bdc3ea8416c9a8c8ade2" style="width: 100.0%; height: 100.0%;">Akademi Ketatalaksanaan Pelayaran Niaga Bahtera</div>`)[0];
+                popup_4453198e5e76cd7ac7a9133c0943f90e.setContent(html_84967a37f351bdc3ea8416c9a8c8ade2);
+            
+        
+
+        marker_115837705018c82a4ebb7ad9e001437e.bindPopup(popup_4453198e5e76cd7ac7a9133c0943f90e)
+        ;
+
+        
+    
+    
+            var marker_ada799cff9e00d568690bf905246d3a9 = L.marker(
+                [-7.78278, 110.36083],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_3f20fe8403602f8469b8c803f8fb683c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97e4e03d8bfa1a471616447a4d7ff69c = $(`<div id="html_97e4e03d8bfa1a471616447a4d7ff69c" style="width: 100.0%; height: 100.0%;">Akademi Pertanian Yogyakarta</div>`)[0];
+                popup_3f20fe8403602f8469b8c803f8fb683c.setContent(html_97e4e03d8bfa1a471616447a4d7ff69c);
+            
+        
+
+        marker_ada799cff9e00d568690bf905246d3a9.bindPopup(popup_3f20fe8403602f8469b8c803f8fb683c)
+        ;
+
+        
+    
+    
+            var marker_d54fbc5257a84efb041f8c299b298e49 = L.marker(
+                [-7.0078754, 110.3972993],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_755d1d72f61fd0d2b205a9f6b862f1e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e9a09e3e8dc70ba766be1cc86fb639c = $(`<div id="html_5e9a09e3e8dc70ba766be1cc86fb639c" style="width: 100.0%; height: 100.0%;">ASM Marsudirini Santa Maria</div>`)[0];
+                popup_755d1d72f61fd0d2b205a9f6b862f1e2.setContent(html_5e9a09e3e8dc70ba766be1cc86fb639c);
+            
+        
+
+        marker_d54fbc5257a84efb041f8c299b298e49.bindPopup(popup_755d1d72f61fd0d2b205a9f6b862f1e2)
+        ;
+
+        
+    
+    
+            var marker_ba7e9c9e38be23e7c9427a28add7089e = L.marker(
+                [-7.7952816, 110.3955315],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_0ebef1d4fc7f52ce118154c121e2ec64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab5fc7ddc59b0360b5c025a4f6fdbcf3 = $(`<div id="html_ab5fc7ddc59b0360b5c025a4f6fdbcf3" style="width: 100.0%; height: 100.0%;">Akademi Perikanan Yogyakarta</div>`)[0];
+                popup_0ebef1d4fc7f52ce118154c121e2ec64.setContent(html_ab5fc7ddc59b0360b5c025a4f6fdbcf3);
+            
+        
+
+        marker_ba7e9c9e38be23e7c9427a28add7089e.bindPopup(popup_0ebef1d4fc7f52ce118154c121e2ec64)
+        ;
+
+        
+    
+    
+            var marker_c0cffbc57b68cc5e0af748566c44ab1f = L.marker(
+                [-7.83879560276807, 110.34182418457256],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_69819dfd737b2e44da381a6582806236 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d7ef6997c318a71d910f6057e606318 = $(`<div id="html_3d7ef6997c318a71d910f6057e606318" style="width: 100.0%; height: 100.0%;">Akademi Pariwisata Indraphrasta</div>`)[0];
+                popup_69819dfd737b2e44da381a6582806236.setContent(html_3d7ef6997c318a71d910f6057e606318);
+            
+        
+
+        marker_c0cffbc57b68cc5e0af748566c44ab1f.bindPopup(popup_69819dfd737b2e44da381a6582806236)
+        ;
+
+        
+    
+    
+            var marker_f0dee4af0182bc7c9e4e3b492ed636cd = L.marker(
+                [-7.80978275768037, 110.29123047210548],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_40440762f367aca40484a9882230deb0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_129c985263e32b1699312cf0e4109e0c = $(`<div id="html_129c985263e32b1699312cf0e4109e0c" style="width: 100.0%; height: 100.0%;">Akademi Sekretari dan Manajemen Indonesia Desanta</div>`)[0];
+                popup_40440762f367aca40484a9882230deb0.setContent(html_129c985263e32b1699312cf0e4109e0c);
+            
+        
+
+        marker_f0dee4af0182bc7c9e4e3b492ed636cd.bindPopup(popup_40440762f367aca40484a9882230deb0)
+        ;
+
+        
+    
+    
+            var marker_f553eb4980cc799df275d82610a5be83 = L.marker(
+                [-7.7903401, 110.3635184],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_c6dcff607a73f0630aa8359ccd622e19 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6428792cf0e7067a18718f5a9cad90c8 = $(`<div id="html_6428792cf0e7067a18718f5a9cad90c8" style="width: 100.0%; height: 100.0%;">Akademi Pariwisata Yogyakarta</div>`)[0];
+                popup_c6dcff607a73f0630aa8359ccd622e19.setContent(html_6428792cf0e7067a18718f5a9cad90c8);
+            
+        
+
+        marker_f553eb4980cc799df275d82610a5be83.bindPopup(popup_c6dcff607a73f0630aa8359ccd622e19)
+        ;
+
+        
+    
+    
+            var marker_ca540b42c8722658d4f25db66ff16900 = L.marker(
+                [22.0271, 82.96108],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_937e58fc722689ebdc5ed27a996cc86f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ade88b50845c6c73ade9e30985d5036 = $(`<div id="html_1ade88b50845c6c73ade9e30985d5036" style="width: 100.0%; height: 100.0%;">Akademi Pariwisata Dharma Nusantara Sakti</div>`)[0];
+                popup_937e58fc722689ebdc5ed27a996cc86f.setContent(html_1ade88b50845c6c73ade9e30985d5036);
+            
+        
+
+        marker_ca540b42c8722658d4f25db66ff16900.bindPopup(popup_937e58fc722689ebdc5ed27a996cc86f)
+        ;
+
+        
+    
+    
+            var marker_f7f0aef17b290e421f3c9ec24217c24e = L.marker(
+                [-7.775189982414864, 110.43090047033232],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_7dd9fbf10a2be47a23ccc771d9a58759 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51c931c608b56529f7cf41fa392255da = $(`<div id="html_51c931c608b56529f7cf41fa392255da" style="width: 100.0%; height: 100.0%;">Akademi Pariwisata Stipary</div>`)[0];
+                popup_7dd9fbf10a2be47a23ccc771d9a58759.setContent(html_51c931c608b56529f7cf41fa392255da);
+            
+        
+
+        marker_f7f0aef17b290e421f3c9ec24217c24e.bindPopup(popup_7dd9fbf10a2be47a23ccc771d9a58759)
+        ;
+
+        
+    
+    
+            var marker_add3ea317e87117286297ff8e4849221 = L.marker(
+                [-7.781334726470429, 110.396962133852],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_df885006f7a9dcc2fa802f21760f80e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19c35d7a67e292b8d590eae1dea88f7e = $(`<div id="html_19c35d7a67e292b8d590eae1dea88f7e" style="width: 100.0%; height: 100.0%;">Akademi Komunikasi Radya Binatama</div>`)[0];
+                popup_df885006f7a9dcc2fa802f21760f80e7.setContent(html_19c35d7a67e292b8d590eae1dea88f7e);
+            
+        
+
+        marker_add3ea317e87117286297ff8e4849221.bindPopup(popup_df885006f7a9dcc2fa802f21760f80e7)
+        ;
+
+        
+    
+    
+            var marker_ba8f78aa1c0a0bbe4742b23f46736c82 = L.marker(
+                [-7.78278, 110.36083],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_9c6ec161669db137c9955c0f83c43620 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23b45f93a146c59a619a85e738caba24 = $(`<div id="html_23b45f93a146c59a619a85e738caba24" style="width: 100.0%; height: 100.0%;">Akademi Manajemen Administrasi Yogyakarta</div>`)[0];
+                popup_9c6ec161669db137c9955c0f83c43620.setContent(html_23b45f93a146c59a619a85e738caba24);
+            
+        
+
+        marker_ba8f78aa1c0a0bbe4742b23f46736c82.bindPopup(popup_9c6ec161669db137c9955c0f83c43620)
+        ;
+
+        
+    
+    
+            var marker_e95e9433381f44e81ce98ee263028fbd = L.marker(
+                [-7.814718663231354, 110.37612774138265],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_e2d8c48502f4b4623f8a25e3cb0d4bbe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e3f5f5a62ffdfa5e40145aea0ef62978 = $(`<div id="html_e3f5f5a62ffdfa5e40145aea0ef62978" style="width: 100.0%; height: 100.0%;">Akademi Seni Rupa Dan Desain MSD</div>`)[0];
+                popup_e2d8c48502f4b4623f8a25e3cb0d4bbe.setContent(html_e3f5f5a62ffdfa5e40145aea0ef62978);
+            
+        
+
+        marker_e95e9433381f44e81ce98ee263028fbd.bindPopup(popup_e2d8c48502f4b4623f8a25e3cb0d4bbe)
+        ;
+
+        
+    
+    
+            var marker_537fc68ec6bcbda2a77818934d82fc3b = L.marker(
+                [-7.78278, 110.36083],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_62abe64a9d044315fef1aeba82fc1efd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98a3cd7a79ac9142651d87323d6b6ab8 = $(`<div id="html_98a3cd7a79ac9142651d87323d6b6ab8" style="width: 100.0%; height: 100.0%;">Akademi Fisioterapi YAB Yogyakarta</div>`)[0];
+                popup_62abe64a9d044315fef1aeba82fc1efd.setContent(html_98a3cd7a79ac9142651d87323d6b6ab8);
+            
+        
+
+        marker_537fc68ec6bcbda2a77818934d82fc3b.bindPopup(popup_62abe64a9d044315fef1aeba82fc1efd)
+        ;
+
+        
+    
+    
+            var marker_68d732dab07b7dcb064e9d63a9df891d = L.marker(
+                [-7.817919131537623, 110.41011796761263],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_b4b0355bc74c3771191c5ec9e7c21178 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88fd96910f57212ef5d408c98467d7c0 = $(`<div id="html_88fd96910f57212ef5d408c98467d7c0" style="width: 100.0%; height: 100.0%;">Akademi Manajemen Administrasi Dharmala</div>`)[0];
+                popup_b4b0355bc74c3771191c5ec9e7c21178.setContent(html_88fd96910f57212ef5d408c98467d7c0);
+            
+        
+
+        marker_68d732dab07b7dcb064e9d63a9df891d.bindPopup(popup_b4b0355bc74c3771191c5ec9e7c21178)
+        ;
+
+        
+    
+    
+            var marker_c32dab2a5eb8c3aa6afec8e08e8c573e = L.marker(
+                [-7.78278, 110.36083],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_167e4e85d80f4f2c1d315dc1015887bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_545f988c9affd78a0c70ff53d0bb9aad = $(`<div id="html_545f988c9affd78a0c70ff53d0bb9aad" style="width: 100.0%; height: 100.0%;">Akademi Keperawatan YKY Yogyakarta</div>`)[0];
+                popup_167e4e85d80f4f2c1d315dc1015887bc.setContent(html_545f988c9affd78a0c70ff53d0bb9aad);
+            
+        
+
+        marker_c32dab2a5eb8c3aa6afec8e08e8c573e.bindPopup(popup_167e4e85d80f4f2c1d315dc1015887bc)
+        ;
+
+        
+    
+    
+            var marker_4ca0f29e08c9c083807a635f8091d6c4 = L.marker(
+                [-7.78278, 110.36083],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_bde239b3907890955fbde83020d921da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b241e13d5a94ee564b4f63419276ac03 = $(`<div id="html_b241e13d5a94ee564b4f63419276ac03" style="width: 100.0%; height: 100.0%;">Akademi Analis Kesehatan Manggala Yogyakarta</div>`)[0];
+                popup_bde239b3907890955fbde83020d921da.setContent(html_b241e13d5a94ee564b4f63419276ac03);
+            
+        
+
+        marker_4ca0f29e08c9c083807a635f8091d6c4.bindPopup(popup_bde239b3907890955fbde83020d921da)
+        ;
+
+        
+    
+    
+            var marker_358a5c6fd580c05dfd5938d6d5891374 = L.marker(
+                [-7.78278, 110.36083],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_7cce340e6b530d876837c272c24e7bbb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_256822b905969a6ba0e582caa429edcd = $(`<div id="html_256822b905969a6ba0e582caa429edcd" style="width: 100.0%; height: 100.0%;">Akademi Farmasi Indonesia Yogyakarta</div>`)[0];
+                popup_7cce340e6b530d876837c272c24e7bbb.setContent(html_256822b905969a6ba0e582caa429edcd);
+            
+        
+
+        marker_358a5c6fd580c05dfd5938d6d5891374.bindPopup(popup_7cce340e6b530d876837c272c24e7bbb)
+        ;
+
+        
+    
+    
+            var marker_11ab1cb174e51632833597031fc19e83 = L.marker(
+                [-6.1952625, 106.8690786],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_957c5f9365b2b7b7780ec5b881c9996e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c342750eca49f561454968ec9002947 = $(`<div id="html_4c342750eca49f561454968ec9002947" style="width: 100.0%; height: 100.0%;">Akademi Teknik Radiodiagnostik dan Radioterapi (ATRO)</div>`)[0];
+                popup_957c5f9365b2b7b7780ec5b881c9996e.setContent(html_4c342750eca49f561454968ec9002947);
+            
+        
+
+        marker_11ab1cb174e51632833597031fc19e83.bindPopup(popup_957c5f9365b2b7b7780ec5b881c9996e)
+        ;
+
+        
+    
+    
+            var marker_2700a6aeb44a5f62e3ff54b826fb25db = L.marker(
+                [-7.78278, 110.36083],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_5506906b0d135af2c6c76d5b69a39071 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_471c760232018d9e4b2ed159089b0c23 = $(`<div id="html_471c760232018d9e4b2ed159089b0c23" style="width: 100.0%; height: 100.0%;">Akademi Film Yogyakarta</div>`)[0];
+                popup_5506906b0d135af2c6c76d5b69a39071.setContent(html_471c760232018d9e4b2ed159089b0c23);
+            
+        
+
+        marker_2700a6aeb44a5f62e3ff54b826fb25db.bindPopup(popup_5506906b0d135af2c6c76d5b69a39071)
+        ;
+
+        
+    
+    
+            var marker_986d49d73041e1a9c983fb4033d2bded = L.marker(
+                [-7.78278, 110.36083],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_e18b2753f1063923a0a93a6768239aea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0227f9b6dbefbb2cdc4df7cc606c0467 = $(`<div id="html_0227f9b6dbefbb2cdc4df7cc606c0467" style="width: 100.0%; height: 100.0%;">Akademi Kebidanan Mulia Madani Yogyakarta</div>`)[0];
+                popup_e18b2753f1063923a0a93a6768239aea.setContent(html_0227f9b6dbefbb2cdc4df7cc606c0467);
+            
+        
+
+        marker_986d49d73041e1a9c983fb4033d2bded.bindPopup(popup_e18b2753f1063923a0a93a6768239aea)
+        ;
+
+        
+    
+    
+            var marker_9621491c07064b8b6893fa5d2b3d92ff = L.marker(
+                [-7.78278, 110.36083],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_10b30d3be0e408dd4bec95860644de89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb752775d9086df37915b080f3b98e51 = $(`<div id="html_cb752775d9086df37915b080f3b98e51" style="width: 100.0%; height: 100.0%;">Akademi Optometri Yogyakarta</div>`)[0];
+                popup_10b30d3be0e408dd4bec95860644de89.setContent(html_cb752775d9086df37915b080f3b98e51);
+            
+        
+
+        marker_9621491c07064b8b6893fa5d2b3d92ff.bindPopup(popup_10b30d3be0e408dd4bec95860644de89)
+        ;
+
+        
+    
+    
+            var marker_3618e05a8408614a1fb2eb5f88549012 = L.marker(
+                [-7.775965, 110.4181257],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_e454a75e2422b70962a88196b1e22310 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_420c0fd7e3fc2969f7e377be686520a5 = $(`<div id="html_420c0fd7e3fc2969f7e377be686520a5" style="width: 100.0%; height: 100.0%;">Politeknik API Yogyakarta</div>`)[0];
+                popup_e454a75e2422b70962a88196b1e22310.setContent(html_420c0fd7e3fc2969f7e377be686520a5);
+            
+        
+
+        marker_3618e05a8408614a1fb2eb5f88549012.bindPopup(popup_e454a75e2422b70962a88196b1e22310)
+        ;
+
+        
+    
+    
+            var marker_d86d483ecbc34dee83158b8f05309df2 = L.marker(
+                [-7.7839999, 110.3846119],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_910a5db99677508263bcfdb4474c1952 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e91cbf1fadf2848760543a30b87b1476 = $(`<div id="html_e91cbf1fadf2848760543a30b87b1476" style="width: 100.0%; height: 100.0%;">Politeknik LPP Yogyakarta</div>`)[0];
+                popup_910a5db99677508263bcfdb4474c1952.setContent(html_e91cbf1fadf2848760543a30b87b1476);
+            
+        
+
+        marker_d86d483ecbc34dee83158b8f05309df2.bindPopup(popup_910a5db99677508263bcfdb4474c1952)
+        ;
+
+        
+    
+    
+            var marker_5815fc6deb2ebb6c091ffef5040abed6 = L.marker(
+                [-7.78278, 110.36083],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_61b8c0fe3ca3b16a6457b972a372b8ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68fbf52536ef739e01ce4d3cdafdd60f = $(`<div id="html_68fbf52536ef739e01ce4d3cdafdd60f" style="width: 100.0%; height: 100.0%;">Politeknik Seni Yogyakarta</div>`)[0];
+                popup_61b8c0fe3ca3b16a6457b972a372b8ea.setContent(html_68fbf52536ef739e01ce4d3cdafdd60f);
+            
+        
+
+        marker_5815fc6deb2ebb6c091ffef5040abed6.bindPopup(popup_61b8c0fe3ca3b16a6457b972a372b8ea)
+        ;
+
+        
+    
+    
+            var marker_3e1d3616d1f3ea3a5981cdff3ff1f9d5 = L.marker(
+                [-5.0, 120.0],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_9193628ebe03939cea6365135a9ae655 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f152456b7a33b37441646b633d865811 = $(`<div id="html_f152456b7a33b37441646b633d865811" style="width: 100.0%; height: 100.0%;">Politeknik Kesehatan Bhakti Setya Indonesia</div>`)[0];
+                popup_9193628ebe03939cea6365135a9ae655.setContent(html_f152456b7a33b37441646b633d865811);
+            
+        
+
+        marker_3e1d3616d1f3ea3a5981cdff3ff1f9d5.bindPopup(popup_9193628ebe03939cea6365135a9ae655)
+        ;
+
+        
+    
+    
+            var marker_a43dd3b73783a63aff84a88937a5209e = L.marker(
+                [-7.7599556, 110.3921358],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_6127fcf64748f3b26e447a39f90b417a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e49dbe6b3fa21df40212bed0ffc8d3a2 = $(`<div id="html_e49dbe6b3fa21df40212bed0ffc8d3a2" style="width: 100.0%; height: 100.0%;">Politeknik Kesehatan Permata Indonesia Yogyakarta</div>`)[0];
+                popup_6127fcf64748f3b26e447a39f90b417a.setContent(html_e49dbe6b3fa21df40212bed0ffc8d3a2);
+            
+        
+
+        marker_a43dd3b73783a63aff84a88937a5209e.bindPopup(popup_6127fcf64748f3b26e447a39f90b417a)
+        ;
+
+        
+    
+    
+            var marker_63d7ba6a53237ca233c3f5220a63f0b7 = L.marker(
+                [-7.796766553562914, 110.41708584247384],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_e3b0f6dd5f6c01f9cbe9174f62c42cc2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_364039113bcf6f1231b95d1132d41522 = $(`<div id="html_364039113bcf6f1231b95d1132d41522" style="width: 100.0%; height: 100.0%;">Politeknik Kesehatan TNI AU Adisutjipto</div>`)[0];
+                popup_e3b0f6dd5f6c01f9cbe9174f62c42cc2.setContent(html_364039113bcf6f1231b95d1132d41522);
+            
+        
+
+        marker_63d7ba6a53237ca233c3f5220a63f0b7.bindPopup(popup_e3b0f6dd5f6c01f9cbe9174f62c42cc2)
+        ;
+
+        
+    
+    
+            var marker_885525eb88a633a6747677660baf703c = L.marker(
+                [-7.78278, 110.36083],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_1e3a800e211b2199db452733b33035bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d94beb3b614010d2e15cd48bdfeec6e3 = $(`<div id="html_d94beb3b614010d2e15cd48bdfeec6e3" style="width: 100.0%; height: 100.0%;">Politeknik Kesehatan Karya Husada Yogyakarta</div>`)[0];
+                popup_1e3a800e211b2199db452733b33035bd.setContent(html_d94beb3b614010d2e15cd48bdfeec6e3);
+            
+        
+
+        marker_885525eb88a633a6747677660baf703c.bindPopup(popup_1e3a800e211b2199db452733b33035bd)
+        ;
+
+        
+    
+    
+            var marker_b501acd20dfd960667bf5eb64d7180ba = L.marker(
+                [-7.877590488598886, 110.32584051613166],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_440a53df37966af1f3053d2126558554 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_839487e0638c28b25c37e8f44cc8efb6 = $(`<div id="html_839487e0638c28b25c37e8f44cc8efb6" style="width: 100.0%; height: 100.0%;">Politeknik Kesehatan Ummi Khasanah</div>`)[0];
+                popup_440a53df37966af1f3053d2126558554.setContent(html_839487e0638c28b25c37e8f44cc8efb6);
+            
+        
+
+        marker_b501acd20dfd960667bf5eb64d7180ba.bindPopup(popup_440a53df37966af1f3053d2126558554)
+        ;
+
+        
+    
+    
+            var marker_efb31ee52dc644778d5abb89fa86f9e9 = L.marker(
+                [-7.784540644987981, 110.38361226983216],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_2bd7a2a740e4f57c108cb5b4162510b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4ee7870d8e1ac340d3c0fa71fca5e63 = $(`<div id="html_e4ee7870d8e1ac340d3c0fa71fca5e63" style="width: 100.0%; height: 100.0%;">Politeknik YKPN</div>`)[0];
+                popup_2bd7a2a740e4f57c108cb5b4162510b2.setContent(html_e4ee7870d8e1ac340d3c0fa71fca5e63);
+            
+        
+
+        marker_efb31ee52dc644778d5abb89fa86f9e9.bindPopup(popup_2bd7a2a740e4f57c108cb5b4162510b2)
+        ;
+
+        
+    
+    
+            var marker_54f7215aec927b67bd51c7c99ecd04e9 = L.marker(
+                [-7.720267026059608, 110.37996718497496],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_4b3e057391ce56095de8e06895c25b2a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d3f7732a2f7ffe02e6c7449adb703d7 = $(`<div id="html_0d3f7732a2f7ffe02e6c7449adb703d7" style="width: 100.0%; height: 100.0%;">Politeknik Gistrav</div>`)[0];
+                popup_4b3e057391ce56095de8e06895c25b2a.setContent(html_0d3f7732a2f7ffe02e6c7449adb703d7);
+            
+        
+
+        marker_54f7215aec927b67bd51c7c99ecd04e9.bindPopup(popup_4b3e057391ce56095de8e06895c25b2a)
+        ;
+
+        
+    
+    
+            var marker_205164c6fa27b3eefc218e93abf3fce3 = L.marker(
+                [-7.78278, 110.36083],
+                {}
+            ).addTo(map_5fed3e429df82f42337d10585b2ced7f);
+        
+    
+        var popup_68564527af026ec05f158aa57c4702c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2808bbc99dc7cb66f610d8520f235be = $(`<div id="html_c2808bbc99dc7cb66f610d8520f235be" style="width: 100.0%; height: 100.0%;">Akademi Komunitas Perkebunan Yogyakarta</div>`)[0];
+                popup_68564527af026ec05f158aa57c4702c6.setContent(html_c2808bbc99dc7cb66f610d8520f235be);
+            
+        
+
+        marker_205164c6fa27b3eefc218e93abf3fce3.bindPopup(popup_68564527af026ec05f158aa57c4702c6)
+        ;
+
+        
+    
+</script>
+</html>
